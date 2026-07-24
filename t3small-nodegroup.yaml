@@ -1,0 +1,15 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: mongo-express-cluster
+  region: eu-central-1
+
+managedNodeGroups:
+  - name: mongo-workers-small
+    instanceType: t3.small
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 2
+    volumeSize: 30
+    privateNetworking: false

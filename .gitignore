@@ -1,0 +1,19 @@
+# Kubernetes / Helm secrets
+*secret*
+*.secret
+.env
+.env.*
+kubeconfig
+config
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Terraform if added later
+.terraform/
+*.tfstate
+*.tfstate.*

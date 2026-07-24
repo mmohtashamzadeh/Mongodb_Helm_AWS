@@ -1,0 +1,24 @@
+architecture: standalone
+
+auth:
+  enabled: true
+  rootUser: root
+  rootPassword: "X25IHkQ/B2ubp5ghTU2ErnuqNIAUWaUn"
+
+persistence:
+  enabled: true
+  storageClass: ebs-gp3
+  accessModes:
+    - ReadWriteOnce
+  size: 8Gi
+
+service:
+  type: ClusterIP
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
