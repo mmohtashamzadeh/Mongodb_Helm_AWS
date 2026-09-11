@@ -35,7 +35,7 @@ spec:
               value: admin
 
             - name: ME_CONFIG_BASICAUTH_PASSWORD
-              value: "X25IHkQ%2FB2ubp5ghTU2ErnuqNIAUWaUn"
+              value: "<mongo-express-ui-password>"
 
 ---
 apiVersion: v1

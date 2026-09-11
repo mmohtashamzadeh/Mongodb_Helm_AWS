@@ -19,21 +19,21 @@ The goal of this project is to practice:
 ## Architecture
 
 Internet
-   ↓
+   |
 AWS Network Load Balancer
-   ↓
+   |
 NGINX Ingress Controller
-   ↓
+   |
 Mongo Express Ingress
-   ↓
+   |
 Mongo Express Service
-   ↓
+   |
 Mongo Express Pod
-   ↓
+   |
 MongoDB Service
-   ↓
+   |
 MongoDB Pod
-   ↓
+   |
 AWS EBS Persistent Volume
 
 ## Technologies Used

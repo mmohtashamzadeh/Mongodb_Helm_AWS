@@ -3,7 +3,7 @@ architecture: standalone
 auth:
   enabled: true
   rootUser: root
-  rootPassword: "X25IHkQ/B2ubp5ghTU2ErnuqNIAUWaUn"
+  rootPassword: "<strong-mongodb-root-password>"
 
 persistence:
   enabled: true
